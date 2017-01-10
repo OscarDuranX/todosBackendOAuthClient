@@ -166,8 +166,9 @@ return [
         /*
          * Package Service Providers...
          */
+        Spatie\Menu\Laravel\MenuServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
 
-        //
 
         /*
          * Application Service Providers...
@@ -245,6 +246,9 @@ return [
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         #llum_aliases
 
+        'Menu' => Spatie\Menu\Laravel\MenuFacade::class,
+        'Link' => Spatie\Menu\Laravel\Link::class,
+        'Html' => Spatie\Menu\Laravel\Html::class,
     ],
 
 ];

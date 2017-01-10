@@ -9,7 +9,10 @@
         "acacha/admin-lte-template-laravel": "^3.3",
         "barryvdh/laravel-debugbar": "^2.3",
         "barryvdh/laravel-ide-helper": "^2.2",
-        "laravel/framework": "5.3.*"
+        "guzzlehttp/guzzle": "^6.2",
+        "laravel/framework": "5.3.*",
+        "laravel/passport": "^1.0",
+        "spatie/laravel-menu": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
